@@ -14,6 +14,7 @@
 		D563201829822DB200BE53A6 /* NavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D563201729822DB200BE53A6 /* NavTests.swift */; };
 		D563202229822DB200BE53A6 /* NavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D563202129822DB200BE53A6 /* NavUITests.swift */; };
 		D563202429822DB200BE53A6 /* NavUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D563202329822DB200BE53A6 /* NavUITestsLaunchTests.swift */; };
+		D563203129822F5800BE53A6 /* DestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D563203029822F5700BE53A6 /* DestinationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D563201D29822DB200BE53A6 /* NavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D563202129822DB200BE53A6 /* NavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavUITests.swift; sourceTree = "<group>"; };
 		D563202329822DB200BE53A6 /* NavUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D563203029822F5700BE53A6 /* DestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				D563200629822DAF00BE53A6 /* NavApp.swift */,
 				D563200829822DAF00BE53A6 /* ContentView.swift */,
+				D563203029822F5700BE53A6 /* DestinationView.swift */,
 				D563200A29822DB100BE53A6 /* Assets.xcassets */,
 				D563200C29822DB100BE53A6 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D563203129822F5800BE53A6 /* DestinationView.swift in Sources */,
 				D563200929822DAF00BE53A6 /* ContentView.swift in Sources */,
 				D563200729822DAF00BE53A6 /* NavApp.swift in Sources */,
 			);
