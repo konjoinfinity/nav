@@ -17,16 +17,6 @@ struct DestinationView: View {
     
     
     var body: some View {
-        
-//        VStack{
-//            Text("Lyrics: \(name)")
-//            Text("Lyrics: \(id)")
-//            Text("Lyrics: \(createdAt)")
-//            Text("Lyrics: \(avatar)")
-//            Text("Lyrics: \(genre)")
-//            Text("Lyrics: \(lyrics)")
-//        }
-        
         VStack {
             AsyncImage(url: URL(string: avatar)){ image in
                 image.resizable()
@@ -47,6 +37,12 @@ struct DestinationView: View {
                     Text(lyrics.uppercased())
                         .font(.caption)
                         .foregroundColor(.secondary)
+                    Text(createdAt)
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                    Text("Song #\(id)")
+                        .font(.headline)
+                        .foregroundColor(.secondary)
                 }
                 .layoutPriority(100)
 
@@ -57,4 +53,3 @@ struct DestinationView: View {
         
     }
 }
-
