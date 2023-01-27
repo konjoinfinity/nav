@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D500A51C29834BB400F6DD44 /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D500A51B29834BB400F6DD44 /* Songs.swift */; };
 		D563200729822DAF00BE53A6 /* NavApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D563200629822DAF00BE53A6 /* NavApp.swift */; };
 		D563200929822DAF00BE53A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D563200829822DAF00BE53A6 /* ContentView.swift */; };
 		D563200B29822DB100BE53A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D563200A29822DB100BE53A6 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D500A51B29834BB400F6DD44 /* Songs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Songs.swift; path = ../../../Desktop/hhh/codegen_63d3137dbd97c/Songs.swift; sourceTree = "<group>"; };
 		D563200329822DAF00BE53A6 /* Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D563200629822DAF00BE53A6 /* NavApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavApp.swift; sourceTree = "<group>"; };
 		D563200829822DAF00BE53A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				D563200629822DAF00BE53A6 /* NavApp.swift */,
 				D563200829822DAF00BE53A6 /* ContentView.swift */,
 				D563203029822F5700BE53A6 /* DestinationView.swift */,
+				D500A51B29834BB400F6DD44 /* Songs.swift */,
 				D563200A29822DB100BE53A6 /* Assets.xcassets */,
 				D563200C29822DB100BE53A6 /* Preview Content */,
 			);
@@ -263,6 +266,7 @@
 				D563203129822F5800BE53A6 /* DestinationView.swift in Sources */,
 				D563200929822DAF00BE53A6 /* ContentView.swift in Sources */,
 				D563200729822DAF00BE53A6 /* NavApp.swift in Sources */,
+				D500A51C29834BB400F6DD44 /* Songs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

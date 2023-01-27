@@ -8,20 +8,53 @@
 import SwiftUI
 
 struct DestinationView: View {
-    @State var name: String
-    var body: some View {
-        VStack {
-            Text("\(name)")
-                .font(.system (size: 30))
-            Text("🍪")
-                .font(.system(size: 100))
-        }
-    }
-}
+    var createdAt: String
+    var name: String
+    var avatar: String
+    var genre: String
+    var lyrics: String
+    var id: String
     
-struct DestinationView_Previews: PreviewProvider {
-    static var previews: some View {
-        DestinationView(name: "Cookies")
+    
+    var body: some View {
+        
+//        VStack{
+//            Text("Lyrics: \(name)")
+//            Text("Lyrics: \(id)")
+//            Text("Lyrics: \(createdAt)")
+//            Text("Lyrics: \(avatar)")
+//            Text("Lyrics: \(genre)")
+//            Text("Lyrics: \(lyrics)")
+//        }
+        
+        VStack {
+            AsyncImage(url: URL(string: avatar)){ image in
+                image.resizable()
+            } placeholder: {
+                ProgressView()
+            }
+            .frame(width: 300, height: 300)
+            HStack {
+                VStack(alignment: .leading) {
+                    Text(genre)
+                        .font(.headline)
+                        .foregroundColor(.secondary)
+                    Text(name)
+                        .font(.title)
+                        .fontWeight(.black)
+                        .foregroundColor(.primary)
+                        .lineLimit(3)
+                    Text(lyrics.uppercased())
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                }
+                .layoutPriority(100)
+
+                Spacer()
+            }
+            .padding()
+        }
+        
     }
 }
 
